@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!--Links to add bootstrap to add styling to the webpage-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Jumbotron uses utility classes for typography and spacing to space content out within the larger container.
+  The classes are predefined which can be directly used as per requirement -->
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Weight Converter</h2>
+            <p class="lead">Type a value in the Kilograms field to convert the value to Grams:</p>
+
+            <p>
+                <label>Kilograms</label>
+                <!--taking input from field and giving it as an argument to the function weight convertor-->
+                <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)"
+                    onchange="weightConverter(this.value)">
+            </p>
+            <p>Grams: <span id="outputGrams"></span></p>
+
+            </p>
+        </div>
+    </div>
+    <script src="../js/mass.js"></script>
+
+</body>
+
+</html>

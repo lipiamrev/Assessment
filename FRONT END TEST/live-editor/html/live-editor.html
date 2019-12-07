@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Code Editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/live-editor/css/live-editor.css">
+</head>
+
+<body>
+
+<!--We will be needing three textarea tags which will correspond with the id of the language we will be compiling.-->
+
+  <textarea id="html" placeholder="HTML"></textarea>
+  <textarea id="css" placeholder="CSS"></textarea>
+  <textarea id="js" placeholder="JavaScript"></textarea>
+
+  <!--To actually show the compiled code, we will also need an iframe tag
+    which will allow us to insert an html document into an existing html page.
+    Making sure to set ids for each tag so we can communicate with these elements in JavaScript.-->
+  <iframe id="code"></iframe>
+
+  <script type="text/javascript" src="/live-editor/js/live-editor.js"></script>
+
+    </body>
+  </html>

@@ -1,0 +1,27 @@
+.title{ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+    text-align:center; 
+    font-size: 30px;
+    width: 210px; 
+    color: darkorchid; 
+    border: solid black 2px; 
+    } 
+
+    input[type="button"] 
+    { 
+    background-color: palegreen; 
+    font-size: 30px;
+    color: black; 
+    border: solid black 2px; 
+    width:100% 
+    } 
+
+    input[type="text"] 
+    { 
+    background-color:white;
+    font-size: 30px; 
+    border: solid black 2px; 
+    width:100% 
+    } 
